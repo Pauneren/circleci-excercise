@@ -9,3 +9,6 @@ I built the .yml file and changed it many times until it passed the testing. The
 I also did something interesting by putting a pre-commit hook that runs prettier before every commit and prettifies the code automatically. The documentation on how to do this can be found here: https://prettier.io/docs/en/precommit.html.
 
 It is very nice to learn here the best practices of coding in teams where Pull Requests can be used both to ensure code quality by having team members reviewing each others work and also getting them better involved in code changes.
+
+I put a pre-commit hook that runs prettier before every commit and prettifies the code automatically
+
