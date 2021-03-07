@@ -29,7 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "precommit": "pretty-quick --staged"
+    "precommit": "pretty-quick --staged",
+    "pretty-quick": "pretty-quick"
   },
   "browserslist": {
     "production": [
@@ -46,5 +47,4 @@
   "devDependencies": {
     "prettier": "2.2.1"
   }
-  
 }
