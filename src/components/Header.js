@@ -6,19 +6,19 @@ import CounterButton from './CounterButton';
 // equivalent to implementing shouldComponentUpdate() with a
 // shallow comparison of current and previous props and state.
 
-class Header extends Component {
-shouldComponentUpdate(nextProps, nextState) {
-return false
-}
-render() {
-console.log('header')
-return (
-<div>
-<h1 className='f1'>RoboFriends</h1>
-<CounterButton />
-</div>
-);
-}
-};
+    class Header extends Component {
+    shouldComponentUpdate(nextProps, nextState) {
+    return false
+    }
+    render() {
+    console.log('header')
+    return (
+    <div>
+    <h1 className='f1'>RoboFriends</h1>
+    <CounterButton />
+    </div>
+    );
+    } 
+    };
 
-export default Header;
+    export default Header;
