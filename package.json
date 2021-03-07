@@ -29,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "precommit": "pretty-quick --staged"
+    "pre-commit": "git-format-staged -f 'prettier --ignore-unknown --stdin --stdin-filepath \"{}\"' ."
   },
   "browserslist": {
     "production": [
@@ -46,4 +46,5 @@
   "devDependencies": {
     "prettier": "2.2.1"
   }
+  
 }
